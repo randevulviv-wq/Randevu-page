@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Перевірка квартири перед орендою сьогодні у Львові</title>
+  <meta name="description" content="Перевірка квартири перед орендою за 30 хв у Львові. Допоможу уникнути прихованих проблем і втрати грошей. Швидко, чітко, по суті.">
+  <meta name="keywords" content="перевірка квартири, оренда Львів, перевірка перед орендою, експерт з оренди, безпечна оренда">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Рандеву">
+  <link rel="canonical" href="https://randevu-lviv.com/perevirka">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="uk_UA">
+  <meta property="og:title" content="Перевірка квартири перед орендою за 30 хв у Львові">
+  <meta property="og:description" content="Щоб ви не втрачали гроші: швидка перевірка квартири перед орендою.">
+  <meta property="og:url" content="https://randevu-lviv.com/perevirka">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1575484043301-3c7d9a8f79fd?auto=format&fit=crop&w=1400&q=80">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Перевірка квартири перед орендою за 30 хв">
+  <meta name="twitter:description" content="Перевірю квартиру перед орендою. Щоб ви не втрачали гроші.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1575484043301-3c7d9a8f79fd?auto=format&fit=crop&w=1400&q=80">
+
+  <style>
+    :root {
+      --bg: #0d1220;
+      --card: #121a2d;
+      --text: #f4f6fb;
+      --muted: #b9c3dd;
+      --accent: #4f8cff;
+      --accent-2: #22d3a7;
+      --danger: #ff6b6b;
+      --radius: 18px;
+      --shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: linear-gradient(180deg, #090d18 0%, #10182b 60%, #0b1020 100%);
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    .container {
+      width: min(1120px, 92%);
+      margin: 0 auto;
+    }
+
+    .hero {
+      position: relative;
+      min-height: 84vh;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(115deg, rgba(9, 14, 26, 0.85) 16%, rgba(12, 24, 46, 0.6) 55%, rgba(8, 16, 30, 0.86) 92%),
+        url("https://images.unsplash.com/photo-1575484043301-3c7d9a8f79fd?auto=format&fit=crop&w=1800&q=80");
+      background-size: cover;
+      background-position: center;
+      transform: scale(1);
+      animation: lvivMotion 18s ease-in-out infinite alternate;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 20% 25%, rgba(79, 140, 255, 0.35), transparent 40%),
+                  radial-gradient(circle at 75% 80%, rgba(34, 211, 167, 0.22), transparent 45%);
+      animation: glowMove 10s ease-in-out infinite alternate;
+      pointer-events: none;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 740px;
+      padding: 84px 0 72px;
+    }
+
+    .badge {
+      display: inline-block;
+      margin-bottom: 20px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(79, 140, 255, 0.18);
+      border: 1px solid rgba(79, 140, 255, 0.4);
+      font-weight: 600;
+      font-size: 14px;
+      color: #d9e7ff;
+    }
+
+    h1 {
+      margin: 0 0 16px;
+      font-size: clamp(34px, 5vw, 62px);
+      line-height: 1.03;
+      letter-spacing: -0.02em;
+    }
+
+    .subhead {
+      margin: 0 0 30px;
+      font-size: clamp(18px, 2vw, 24px);
+      color: #d8e0f5;
+      max-width: 620px;
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 14px 22px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 700;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+    }
+
+    .btn-primary {
+      background: linear-gradient(90deg, var(--accent), #6aa0ff);
+      color: #fff;
+      box-shadow: 0 8px 24px rgba(79, 140, 255, 0.45);
+    }
+
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      color: #fff;
+    }
+
+    .trust {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 18px;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .trust li::before {
+      content: "✓ ";
+      color: var(--accent-2);
+      font-weight: 700;
+    }
+
+    .section {
+      padding: 68px 0;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.01));
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: var(--radius);
+      padding: 24px;
+      box-shadow: var(--shadow);
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: clamp(26px, 3.2vw, 40px);
+      letter-spacing: -0.01em;
+    }
+
+    h3 {
+      margin: 0 0 10px;
+      font-size: 20px;
+    }
+
+    p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .emphasis {
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 22px;
+    }
+
+    .step {
+      background: var(--card);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 14px;
+      padding: 16px;
+    }
+
+    .step-number {
+      width: 30px;
+      height: 30px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 8px;
+      border-radius: 50%;
+      background: rgba(79, 140, 255, 0.22);
+      color: #d7e6ff;
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    .price-box {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 18px;
+      align-items: center;
+    }
+
+    .price-tag {
+      font-size: clamp(32px, 5vw, 54px);
+      font-weight: 800;
+      color: #fff;
+      letter-spacing: -0.02em;
+    }
+
+    .price-tag small {
+      font-size: 0.42em;
+      color: var(--muted);
+      font-weight: 500;
+    }
+
+    .socials {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .social-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 118px;
+      padding: 10px 12px;
+      border-radius: 10px;
+      text-decoration: none;
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      background: rgba(255, 255, 255, 0.06);
+      font-weight: 600;
+      font-size: 14px;
+      transition: opacity 0.2s ease, transform 0.2s ease;
+    }
+
+    .social-link:hover {
+      opacity: 0.92;
+      transform: translateY(-1px);
+    }
+
+    .faq {
+      display: grid;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    details {
+      background: #0f1729;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      padding: 14px 16px;
+    }
+
+    summary {
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    .final-cta {
+      text-align: center;
+      padding: 48px 20px;
+      background: linear-gradient(90deg, rgba(79, 140, 255, 0.2), rgba(34, 211, 167, 0.16));
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: 20px;
+      margin-top: 22px;
+    }
+
+    footer {
+      padding: 24px 0 40px;
+      text-align: center;
+      color: #9aa6c8;
+      font-size: 14px;
+    }
+
+    @keyframes lvivMotion {
+      0% { transform: scale(1.02) translate3d(0, 0, 0); }
+      100% { transform: scale(1.12) translate3d(-1.5%, 1.5%, 0); }
+    }
+
+    @keyframes glowMove {
+      0% { transform: translate3d(0, 0, 0); }
+      100% { transform: translate3d(2%, -2%, 0); }
+    }
+
+    @media (max-width: 900px) {
+      .grid-3, .steps, .price-box {
+        grid-template-columns: 1fr;
+      }
+      .hero {
+        min-height: auto;
+      }
+      .hero-content {
+        padding: 66px 0 60px;
+      }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Перевірка квартири перед орендою",
+    "description": "Експрес-перевірка квартири у Львові перед орендою за 30 хв, щоб уникнути прихованих проблем та втрати грошей.",
+    "provider": {
+      "@type": "RealEstateAgent",
+      "name": "Rendezvous Realty",
+      "telephone": "+380000000000",
+      "areaServed": "Львів"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Львів"
+    },
+    "serviceType": "Перевірка квартири перед орендою",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "UAH",
+      "price": "900",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Що входить у перевірку?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Перевірка документів орендодавця, стану квартири, ризиків договору та фінальних умов заселення."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Скільки триває перевірка?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "У середньому 30 хвилин після вашого звернення і наданих даних по об'єкту."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Для кого ця послуга?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Для людей, які вже самі знайшли квартиру і хочуть безпечно укласти оренду без переплат і проблем."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="hero" id="top">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="container">
+      <div class="hero-content">
+        <span class="badge">Львів • Перевірка квартири сьогодні</span>
+        <h1>Перевірю квартиру перед орендою  сьогодні</h1>
+        <p class="subhead">Щоб ви <span class="emphasis">не втрачали гроші</span> на прихованих дефектах, фейкових власниках і небезпечних умовах договору.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="tel:+380637313624" aria-label="Зателефонувати зараз">Зателефонувати зараз</a>
+          <a class="btn btn-secondary" href="#contact" aria-label="Перейти до контактів">Інші способи зв'язку</a>
+        </div>
+        <ul class="trust">
+          <li>Швидка реакція на заявку</li>
+          <li>Перевірка ризиків до оплати</li>
+          <li>Чіткі рекомендації без зайвого</li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h2>Що саме ви отримаєте</h2>
+        <div class="grid-3">
+          <article class="card">
+            <h3>Перевірка документів</h3>
+            <p>Звіряю ключові дані, щоб мінімізувати ризик шахрайства та фейкових посередників.</p>
+          </article>
+          <article class="card">
+            <h3>Оцінка стану квартири</h3>
+            <p>Фіксую критичні моменти, які можуть обернутися додатковими витратами після заселення.</p>
+          </article>
+          <article class="card">
+            <h3>Аналіз умов оренди</h3>
+            <p>Пояснюю підводні камені договору, штрафів, застави та умов виселення.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container card">
+        <h2>Як це працює</h2>
+        <div class="steps">
+          <div class="step">
+            <span class="step-number">1</span>
+            <p>Ви надсилаєте посилання/адресу квартири і короткий опис ситуації.</p>
+          </div>
+          <div class="step">
+            <span class="step-number">2</span>
+            <p>Я проводжу експрес-перевірку і даю висновок із ризиками та рекомендаціями.</p>
+          </div>
+          <div class="step">
+            <span class="step-number">3</span>
+            <p>Ви приймаєте рішення з позиції сили і не переплачуєте за помилки.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="card price-box">
+          <div>
+            <h2>Ціна послуги</h2>
+            <p>Прозорий фіксований тариф без прихованих платежів.</p>
+            <p class="price-tag">2500 грн <small>/ перевірка</small></p>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="tel:+380637313624">Подзвонити і забронювати</a>
+            </div>
+          </div>
+          <div>
+            <h3>Гарантія користі</h3>
+            <p>Моя задача - знайти слабкі місця до підписання договору, поки це не стало вашою фінансовою проблемою.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container card">
+        <h2>Зв'язок за 1 клік</h2>
+        <p>Оберіть зручний канал. Відповідаю максимально швидко в робочий час.</p>
+        <div class="socials">
+          <a class="social-link" href="tel:+380637313624" aria-label="Зателефонувати">Телефон</a>
+          <a class="social-link" href="https://t.me/DmytroRandevu" target="_blank" rel="noopener noreferrer" aria-label="Написати в Telegram">Telegram</a>
+          <a class="social-link" href="viber://chat?number=+380637313624" aria-label="Написати у Viber">Viber</a>
+          <a class="social-link" href="https://wa.me/+380637313624" target="_blank" rel="noopener noreferrer" aria-label="Написати в WhatsApp">WhatsApp</a>
+          <a class="social-link" href="https://www.instagram.com/pavliuchokdmitrii/" target="_blank" rel="noopener noreferrer" aria-label="Написати в Instagram">Instagram</a>
+        </div>
+
+        <div class="faq">
+          <details>
+            <summary>Що входить у перевірку?</summary>
+            <p>Документи, стан квартири, умови договору та ключові ризики перед оплатою.</p>
+          </details>
+          <details>
+            <summary>Скільки часу це займає?</summary>
+            <p>Базова перевірка зазвичай триває до 30 хв з моменту отримання інформації.</p>
+          </details>
+          <details>
+            <summary>Якщо я вже домовився про перегляд на сьогодні?</summary>
+            <p>Пишіть або телефонуйте одразу - пріоритезую термінові запити.</p>
+          </details>
+        </div>
+
+        <div class="final-cta">
+          <h3>Не ризикуйте грошима через одну помилку в оренді</h3>
+          <p style="margin-bottom: 18px;">Звертайтесь зараз і отримайте перевірку квартири до підписання договору.</p>
+          <a class="btn btn-primary" href="tel:+380637313624">Зателефонувати</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© АН Рандеву, Львів. Перевірка квартир перед орендою.</p>
+    </div>
+  </footer>
+</body>
+</html>
