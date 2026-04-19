@@ -213,6 +213,16 @@
       margin-top: 22px;
     }
 
+    .about-photo {
+      width: min(320px, 100%);
+      display: block;
+      margin: 8px auto 18px;
+      border-radius: 16px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      box-shadow: var(--shadow);
+      object-fit: cover;
+    }
+
     .step {
       background: var(--card);
       border: 1px solid rgba(255, 255, 255, 0.08);
@@ -467,6 +477,7 @@
     <section class="section">
       <div class="container card">
         <h2>Хто я?</h2>
+        <img class="about-photo" src="PD2.png" alt="Дмитро, ріелтор і консультант з перевірки квартир у Львові" loading="lazy">
         <div class="steps">
           <div class="step">
             <span class="step-number">1</span>
